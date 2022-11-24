@@ -1,23 +1,25 @@
 Echo Syntax:
-  echo *msg*
+
+  `echo *msg*`
  
 Echov Syntax:
-  echov *varName*
+
+  `echov *varName*`
  
 Clear Syntax:
-  clear *all, history, or terminal*
+  `clear *all, history, or terminal*`
  
 Lock Syntax:
-  lock *history, terminal, or all*
+  `lock *history, terminal, or all*`
  
 History Syntax:
-  history
+  `history`
  
 Var Syntax:
-  var *name* = *value*
+  `var *name* = *value*`
  
 Set Syntax:
-  set *varname* = *value*
+  `set *varname* = *value*`
   
 Rename Syntax:
-  raname *name*
+  `raname *name*`
