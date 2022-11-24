@@ -163,6 +163,10 @@ def help(a):
     print(GREEN+"Set Syntax:")
     print(GREEN+"  set *varname* = *value*")
     return
+  if a[5:11] == "rename":
+    print(GREEN+"Rename Syntax:")
+    print(GREEN+"  raname *name*")
+    return
   if a[5:6] == "":
     print(GREEN+"Echo Syntax:")
     print(GREEN+"  echo *msg*")
@@ -184,6 +188,9 @@ def help(a):
     print()
     print(GREEN+"Set Syntax:")
     print(GREEN+"  set *varname* = *value*")
+    print()
+    print(GREEN+"Rename Syntax:")
+    print(GREEN+"  raname *name*")
     return
     #all help below
   if a[5:8] == "all":
@@ -207,6 +214,9 @@ def help(a):
     print()
     print(GREEN+"Set Syntax:")
     print(GREEN+"  set *varname* = *value*")
+    print()
+    print(GREEN+"Rename Syntax:")
+    print(GREEN+"  raname *name*")
     return
     return
   else:
